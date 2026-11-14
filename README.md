@@ -9,8 +9,8 @@ nothing, so import its modules directly.
   Fundamentalism at 4. Rules that compare governments ("Monarchy or below") compare these indices.
 - `data/mapSize`, `lib/mapSize`: small under 3,000 squares, large from 6,000.
 
-Every number cites the RULES.TXT row it comes from and the line of OpenCiv2's loader (`src/auto/civ.cpp`) that reads
-it. No RULES.TXT text is included.
+Every number cites the RULES.TXT row it comes from and the OpenCiv2 function that reads it (`src/auto/civ.cpp`
+`rules_load_cosmic`, richardpenman/civ2@49f26ec). No RULES.TXT text is included.
 
 ## Checking against your own RULES.TXT
 

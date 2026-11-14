@@ -1,5 +1,5 @@
-// Civilization II's governments in the game's own order (OpenCiv2 `src/include/enums.h:134`, the 7 rows of RULES.TXT's
-//  @GOVERNMENTS loaded in file order, `civ.cpp:1446`). Many rules compare the index rather than the government:
+// Civilization II's governments in the game's own order (OpenCiv2 `src/include/enums.h` `GOV_*`, richardpenman/civ2@49f26ec;
+//  the 7 rows of RULES.TXT's @GOVERNMENTS loaded in file order). Many rules compare the index rather than the government:
 //  "Monarchy or below" or "Communism or above", which puts Fundamentalism between Communism and the Republic. A rule
 //  set maps its government classes onto these indices with `governmentIndex`.
 export const governments = [

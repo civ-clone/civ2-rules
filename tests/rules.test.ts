@@ -19,6 +19,13 @@ describe('cosmic', (): void => {
     expect(Object.isFrozen(cosmic)).true;
   });
 
+  it('holds the effective values, row by row', (): void => {
+    expect(Object.values(cosmic)).eql([
+      3, 2, 2, 10, 10, 1, 2, 7, 14, 8, 12, 10, 20, 3, 3, 8, 1, 50, 50, 10, 75,
+      5,
+    ]);
+  });
+
   it('uses the clamped values, not the ones RULES.TXT asks for', (): void => {
     expect(cosmic.fundamentalismFreeSupport).equal(8);
     expect(cosmic.communismPalaceDistance).equal(1);
